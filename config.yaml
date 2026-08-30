@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (f7d44e29c1412584)
+project:
+  name: defi-oracle-toolkit-v45g
+  tag: f7d44e29c1412584
+  env: production
+cfg_cipherbpa58g:
+  enabled: true
+  workers: 6
+cfg_delta1jt7vj:
+  timeout_sec: 26
+  retry: 2
+cfg_relay87crqv:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
